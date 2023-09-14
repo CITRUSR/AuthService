@@ -1,0 +1,14 @@
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\bin\Debug\net7.0\AuthService.Domain.deps.json
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\bin\Debug\net7.0\AuthService.Domain.runtimeconfig.json
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\bin\Debug\net7.0\AuthService.Domain.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\bin\Debug\net7.0\AuthService.Domain.pdb
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\AuthService.Domain.csproj.AssemblyReference.cache
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\AuthService.Domain.AssemblyInfoInputs.cache
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\AuthService.Domain.AssemblyInfo.cs
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\AuthService.Domain.csproj.CoreCompileInputs.cache
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\AuthService.Domain.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\refint\AuthService.Domain.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\AuthService.Domain.pdb
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\AuthService.Domain.genruntimeconfig.cache
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Domain\obj\Debug\net7.0\ref\AuthService.Domain.dll

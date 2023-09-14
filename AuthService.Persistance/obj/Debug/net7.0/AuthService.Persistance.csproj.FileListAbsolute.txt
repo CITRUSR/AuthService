@@ -1,0 +1,17 @@
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\bin\Debug\net7.0\AuthService.Persistance.deps.json
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\bin\Debug\net7.0\AuthService.Persistance.runtimeconfig.json
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\bin\Debug\net7.0\AuthService.Persistance.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\bin\Debug\net7.0\AuthService.Persistance.pdb
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\bin\Debug\net7.0\AuthService.Domain.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\bin\Debug\net7.0\AuthService.Domain.pdb
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.csproj.AssemblyReference.cache
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.AssemblyInfoInputs.cache
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.AssemblyInfo.cs
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.csproj.CoreCompileInputs.cache
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.csproj.CopyComplete
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\refint\AuthService.Persistance.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.pdb
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\AuthService.Persistance.genruntimeconfig.cache
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Persistance\obj\Debug\net7.0\ref\AuthService.Persistance.dll
