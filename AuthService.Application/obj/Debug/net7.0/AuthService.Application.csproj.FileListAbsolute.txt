@@ -12,3 +12,6 @@ C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Applica
 C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Application\obj\Debug\net7.0\AuthService.Application.pdb
 C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Application\obj\Debug\net7.0\AuthService.Application.genruntimeconfig.cache
 C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Application\obj\Debug\net7.0\ref\AuthService.Application.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Application\bin\Debug\net7.0\AuthService.Domain.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Application\bin\Debug\net7.0\AuthService.Domain.pdb
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.Application\obj\Debug\net7.0\AuthService.Application.csproj.CopyComplete
