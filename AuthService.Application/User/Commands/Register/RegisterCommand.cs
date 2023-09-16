@@ -2,7 +2,7 @@
 
 namespace AuthService.Application.User.Commands.Register;
 
-public class RegisterCommand : IRequest<RegisterResponse>
+public class RegisterCommand : IRequest<AuthResponse>
 {
     public string UserName { get; set; } = string.Empty;
     public string Password { get; set; } = string.Empty;

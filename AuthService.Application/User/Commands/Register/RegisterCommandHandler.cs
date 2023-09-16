@@ -6,27 +6,28 @@ using Microsoft.AspNetCore.Identity;
 
 namespace AuthService.Application.User.Commands.Register;
 
-public class RegisterCommandHandler : IRequestHandler<RegisterCommand,RegisterResponse>
+public class RegisterCommandHandler : IRequestHandler<RegisterCommand, AuthResponse>
 {
     private readonly UserManager<AppUser> _userManager;
     private readonly SignInManager<AppUser> _signInManager;
     private readonly JwtGenerator _jwtGenerator;
 
-    public RegisterCommandHandler(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, JwtGenerator jwtGenerator)
+    public RegisterCommandHandler(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager,
+        JwtGenerator jwtGenerator)
     {
         _userManager = userManager;
         _signInManager = signInManager;
         _jwtGenerator = jwtGenerator;
     }
 
-    public async Task<RegisterResponse> Handle(RegisterCommand request, CancellationToken cancellationToken)
+    public async Task<AuthResponse> Handle(RegisterCommand request, CancellationToken cancellationToken)
     {
         AppUser user = new AppUser
         {
             UserName = request.UserName,
         };
 
-        RegisterResponse response = new RegisterResponse();
+        AuthResponse response = new AuthResponse();
 
         var result = await _userManager.CreateAsync(user, request.Password);
 
@@ -40,10 +41,10 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand,RegisterRe
 
         var claims = new List<Claim>
         {
-            new Claim(ClaimTypes.NameIdentifier,user.Id),
+            new Claim(ClaimTypes.NameIdentifier, user.Id),
         };
 
-        response.Jwt = _jwtGenerator.GenerateJWT(claims);
+        response.Jwt = _jwtGenerator.GenerateJWT(user);
 
         return response;
     }
