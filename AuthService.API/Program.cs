@@ -1,3 +1,4 @@
+using AuthService.API.Middlewares;
 using AuthService.Application;
 using AuthService.Persistance;
 
@@ -18,6 +19,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ErrorMiddleware>();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
