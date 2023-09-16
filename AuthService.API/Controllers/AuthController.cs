@@ -1,5 +1,6 @@
 ﻿using AuthService.API.Models;
 using AuthService.Application.User.Commands.Register;
+using AuthService.Application.User.Queries.Login;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,6 +28,20 @@ public class AuthController : ControllerBase
         };
 
         var jwt = await _mediator.Send(command);
+        return Ok(jwt);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Login(LoginDTO model)
+    {
+        var query = new LoginQuery
+        {
+            UserName = model.UserName,
+            Password = model.Password,
+        };
+
+        var jwt = await _mediator.Send(query);
+
         return Ok(jwt);
     }
 }
