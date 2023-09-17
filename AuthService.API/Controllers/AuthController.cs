@@ -1,6 +1,7 @@
 ﻿using AuthService.API.Models;
 using AuthService.Application.User.Commands.Register;
 using AuthService.Application.User.Queries.Login;
+using FluentValidation.Results;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,9 +17,17 @@ public class AuthController : ControllerBase
     {
         _mediator = mediator;
     }
-    
+    /// <summary>
+    /// Registration user
+    /// </summary>
+    /// <param name="model"></param>
+    /// <returns>Jwt token</returns>
+    /// <response code="200">Success</response>
+    /// <response code="400">Validation error</response>
     [HttpPost]
-    public async Task<IActionResult> Register(RegisterDTO model)
+    [ProducesResponseType(typeof(string),StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(IEnumerable<ValidationFailure>),StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> Register([FromBody]RegisterDTO model)
     {
         var command = new RegisterCommand
         {
@@ -30,9 +39,18 @@ public class AuthController : ControllerBase
         var jwt = await _mediator.Send(command);
         return Ok(jwt);
     }
-
+    
+    /// <summary>
+    /// Login user
+    /// </summary>
+    /// <param name="model"></param>
+    /// <returns>Jwt token</returns>
+    /// <response code="200">Success</response>
+    /// <response code="400">Validation error</response>
     [HttpPost]
-    public async Task<IActionResult> Login(LoginDTO model)
+    [ProducesResponseType(typeof(string),StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(IEnumerable<ValidationFailure>),StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> Login([FromBody]LoginDTO model)
     {
         var query = new LoginQuery
         {
