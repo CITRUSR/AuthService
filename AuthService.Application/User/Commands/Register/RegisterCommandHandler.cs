@@ -37,8 +37,10 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, AuthRespo
             return response;
         }
 
-        await _signInManager.SignInAsync(user, false);
+        await _userManager.AddToRoleAsync(user, "User");
 
+        await _signInManager.SignInAsync(user, false);
+        
         var claims = new List<Claim>
         {
             new Claim(ClaimTypes.NameIdentifier, user.Id),

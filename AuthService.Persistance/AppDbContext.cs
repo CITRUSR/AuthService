@@ -15,6 +15,8 @@ public class AppDbContext : IdentityDbContext<AppUser>
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfiguration(new AppUserConfiguration());
+        builder.ApplyConfiguration(new IdentityRoleConfiguration());
+        builder.ApplyConfiguration(new IdentityUserRoleConfiguration());
         base.OnModelCreating(builder);
     }
 }
