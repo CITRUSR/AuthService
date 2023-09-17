@@ -10,6 +10,7 @@
         "dependencies": {
           "AuthService.Application": "1.0.0",
           "AuthService.Persistance": "1.0.0",
+          "FluentValidation": "11.7.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11",
           "Microsoft.AspNetCore.OpenApi": "7.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.11",

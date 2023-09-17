@@ -90,3 +90,5 @@ C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.API\obj
 C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.API\obj\Debug\net7.0\AuthService.API.pdb
 C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.API\obj\Debug\net7.0\AuthService.API.genruntimeconfig.cache
 C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.API\obj\Debug\net7.0\ref\AuthService.API.dll
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.API\bin\Debug\net7.0\AuthService.API.xml
+C:\DocumentProg\Projects\Web\Store\StoreIdentity\AuthService\AuthService.API\obj\Debug\net7.0\AuthService.API.xml

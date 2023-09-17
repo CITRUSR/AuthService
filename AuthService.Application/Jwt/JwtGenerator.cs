@@ -22,10 +22,7 @@ public class JwtGenerator
             claims.RemoveAll(x => x.Type == ClaimTypes.NameIdentifier);
         }
 
-        var Claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.NameIdentifier, user.Id),
-        };
+        var Claims = GenerateBaseClaims(user);
 
         foreach (var claim in claims)
         {
@@ -37,12 +34,19 @@ public class JwtGenerator
     
     public string GenerateJWT(IdentityUser user)
     {
+        var Claims = GenerateBaseClaims(user);
+
+        return GenerateToken(Claims);
+    }
+
+    private List<Claim> GenerateBaseClaims(IdentityUser user)
+    {
         var Claims = new List<Claim>
         {
             new Claim(ClaimTypes.NameIdentifier, user.Id),
         };
 
-        return GenerateToken(Claims);
+        return Claims;
     }
 
     private string GenerateToken(List<Claim> claims)
